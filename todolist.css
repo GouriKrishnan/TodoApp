@@ -1,0 +1,33 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#todoTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+#todoTable th, #todoTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#todoTable th {
+    background-color: #f2f2f2;
+}
+
+#todoTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#todoTable tr:hover {
+    background-color: #ddd;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}

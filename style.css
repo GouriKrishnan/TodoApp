@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(images/picsbg.jpg) no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background: transparent;
+   
+}
+
+
+
